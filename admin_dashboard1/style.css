@@ -1,0 +1,27 @@
+*{
+margin:0px;
+}
+#container ul{
+list-style:none;
+}
+#container ul li{
+background-color: green;
+width:150px;
+border:1px solid white;
+height:170px;
+line-height:50px;
+text-align:center;
+color:white;
+font-size:18px;
+}
+#container ul li:hover{
+background-color:purple;
+}
+//#contaier ul ul{
+display:none;
+}//
+//#container ul li:hover>ul{
+
+display:block;
+}//
+

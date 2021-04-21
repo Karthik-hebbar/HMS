@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+	width:30%;
+    height: 100vh;
+	background-color:  black;
+
+}
+li a{
+	color: white;
+	/*font-family: source sans pro;*/
+	font-weight: lighter;
+	font-size: 17px;
+	padding: 0 20px;
+}
+
+ .cool-link::after{
+	  content: '';
+	  display: block;
+	  width: 0;
+	  height: 2px;
+	  background: white;
+	  transition:  width .3s;
+}
+.cool-link:hover::after{
+
+   width: 100%;
+   transition: width .3s;
+
+}
+ul .cool-link{
+	margin-top: 20px;
+}
+
+.menu img{
+ height: 70px;
+ width: 70px;
+ margin-left: 69px;
+ margin-top: 20px;
+border-radius: 50%;
+}

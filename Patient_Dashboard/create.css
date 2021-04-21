@@ -1,0 +1,164 @@
+html{
+	height: 100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(12966.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+     display: flex;
+  flex-direction: column;
+}
+.menu{
+    width:100%;
+    height: 70px;
+	
+    background-color: rgba(0,0,0,0.4);
+}
+.logo img{
+  float: left;
+  width: 350px;
+  height: auto;
+  margin-top: 20px;   
+}
+.loginbox {
+	width: 500px;
+	height: 980px;
+	background: rgb(0,0,0,0.4);
+	color: black;
+	top: 50%;
+	left: 50%;
+    margin-top: 150px;
+    margin-left: 20px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px;
+	 box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	   border-radius: 10px;
+
+}
+.loginbox h2 {
+    margin-right: 500px;
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+   
+    text-align: center;
+}
+.loginbox .input {
+    position: relative;
+}
+.loginbox .input input {
+    width: 98%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.loginbox .input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+    transition: .5s; 
+}
+
+.loginbox .input input:focus ~ label,
+.loginbox .input input:valid ~ label
+ {
+    top: -20px;
+    left: 0;
+    color: black;
+    font-size: 12px;
+}
+.loginbox input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 415px;
+    font-size: 25px;
+    transition: background-color 0.4s,color 0.4s;
+}
+.loginbox input[type="submit"]:hover{
+
+    background-color: yellow;
+    color: black;
+}
+
+
+.hlink{
+    margin-right: 255px;
+}
+.Footer{
+	margin-top: 59%;
+	text-align: center;
+}
+
+.loginbox .input1 {
+    position: relative;
+}
+.loginbox .input1 input {
+    width: 98%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.loginbox .label2 label
+{
+font-size: 20px;
+color: white;
+
+}
+
+.loginbox p{
+    font-size: 20px;
+color: white;
+
+}
+.loginbox .input1 label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+
+}
+
+.loginbox .label2{ 
+	color: white;
+}
+
+#imggg{
+
+  width: 70px;
+  height: 70px;
+  /*margin-top: 37px;
+  margin-right: 85%;*/
+  margin-top: -30px;
+  /*margin-left: 89%;*/
+  margin-left: 3%;
+}

@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*font-family: sans-serif;*/
+	background-image:url(appointment-book-blur-care-40568.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.menu{
+    width:100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.4);
+}
+.logo img{
+  float: left;
+  width: 350px;
+  height: auto;
+  margin-top: 20px;   
+}
+#imggg{
+   width: 70px;
+  height: 70px;
+  /*margin-top: 37px;
+  margin-right: 85%;*/
+  margin-top: 75px;
+  margin-left: 75%;
+}
+
+.loginbox {
+	width: 400px;
+	height: 420px;
+	background: rgb(0,0,0,0.4);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px;
+	 box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	   border-radius: 10px;
+
+}
+
+.loginbox h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: white;
+   
+    text-align: center;
+}
+
+.loginbox .input {
+    position: relative;
+}
+.loginbox .input input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.loginbox .input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+    transition: .5s; 
+}
+
+.loginbox .input input:focus ~ label,
+.loginbox .input input:valid ~ label
+ {
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.loginbox input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 310px;
+    /*transition: background-color 0.4s;*/
+}
+
+.loginbox input[type="submit"]:hover{
+
+  cursor: pointer;
+
+background: #005ECA;
+}
+
+
+
+.Footer{      /*Footer css part*/
+  height: 20px;
+  width: 100%;
+  /*background-color: black;*/
+  color: black;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-weight: bold;
+}
+

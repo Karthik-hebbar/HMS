@@ -1,0 +1,551 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*perspective: 1px;*/
+ font-family: Century Gothic;
+
+box-sizing: border-box
+   
+
+   /*to remove the horizontal scroll*/
+ width: 100%;      
+ overflow-x: hidden;    
+}
+
+.box1{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+transform: translate(-50%,-50%);
+margin-top: 310px;
+
+
+}
+.box1 span
+{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 3px solid white;
+
+	border-right: 3px solid white;
+	transform:rotate(45deg);    
+    animation: animate 2s infinite;
+	}
+	
+
+	.box1 span:nth-child(2){
+		animation-delay: -0.2s;
+
+	}
+	.box1 span:nth-child(3){
+		animation-delay: -0.4s;
+	}
+
+
+
+
+	@keyframes animate{
+    0%{
+	opacity: 0;
+	transform:rotate(45deg)  translate(-20%,-20%);    
+
+	}
+	50%{
+	opacity: 1;
+	
+	}
+	100%{
+	opacity: 0;
+	transform:rotate(45deg)  translate(20%,20%);     
+	
+	}
+
+}
+
+
+.navbar{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap ;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+
+
+}
+
+img{
+	margin-right: 70%;
+	width: 400px;
+	height: 45px;
+	margin-top: 20px;
+}
+.logo2 img{
+
+	margin-top: 240px;
+	width: 100px;
+	height: 100px;
+	margin-left: 710px;
+
+}
+.nav{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-left: 60%;
+     margin-top: -40px;
+     
+
+
+}
+.nav a{
+	color: white;
+}
+a{
+	margin:15px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover{
+	color: #000;
+
+}
+
+
+
+
+.text-part{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    
+}
+.text-part h1{
+	font-size: 40px;
+	 font-family: Century Gothic; 
+	 color: white;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.port-area{
+
+	position: relative;
+
+	display: table;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	width:100%;
+	height:790px;
+	text-align: justify;
+    text-justify: inter-word;
+    background-image: url(adult-career-clipboard-1919236.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+  
+
+}
+
+.port-area h1{
+	margin-top: 2%;
+text-align: center;
+ font-family: Century Gothic; 
+}
+.port-area p{
+	margin-top: 5%;
+}
+.about-area{
+width:100%;
+	height:1400px;
+	position: relative;
+
+	display: table;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	 /*position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+padding: 30px;   */
+    text-align: inherit;
+   
+background-image: url(dawn-fog-foggy-2819353.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+.about-area h1{
+
+	
+	margin-top: 10px;
+	text-align: center;
+	 font-family: Century Gothic; 
+	 text-shadow: 10px 10px 10px black;
+}
+
+.about-area p{
+	padding: 50px;
+}
+
+
+.contact-areaa{
+
+
+	width:100%;
+	height:170%;
+text-align: center;
+background-color: #2C2D2D;
+	color: #fff;
+
+}
+.border label{
+
+	margin-left: -8px;
+	font-size: 30px;
+	font-family: quicksand;
+}
+.border{
+	border: 2px none black;
+	width: 35%;
+	height: 35%;
+	margin-left: 50px;
+	/*transform: translate(-50%,-50%);*/
+	margin-top: 50px;
+
+}
+.border input[type=text],textarea{
+
+	width: 100%;
+	
+	margin: 20px 0;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+
+
+}
+.border input[type=text]{
+	height: 40px;
+}
+.border input[type=submit]{
+	font-size: 16px;
+	background-color: #00D8E1;
+	border: none;
+	border-radius: 9px;
+    color: black;
+    height: 40px;
+    width: 340px;
+    margin-top: 5px;	
+
+}
+.border input[type=submit]:hover{
+	background-color: red;
+
+}
+   ::-webkit-input-placeholder{
+   color:#EAEAEA
+   font-size:12px;
+   letter-spacing: 2px;
+}
+.footer{
+	margin-top: -1px;
+}
+.image{
+    margin-left: 45%;
+    margin-top: -360px;
+
+
+}
+.image img{
+
+	width: 85%;
+	height: 43%;
+}
+.facilities-area{
+	width:100%;
+	height:1550px;
+	position: relative;
+
+display: table;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap:wrap;
+	flex-direction:row;
+	text-align: inherit;
+	background-image: url(doctors-glass-hallway-127873.jpg);
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	margin-top: 45px;
+	font-size: 50px;
+	font-family: Audiowide;
+	text-align: center;
+ font-family: Century Gothic;
+ text-shadow: 10px 10px 10px black; 
+}
+ p{
+	font-size: 26px;
+	line-height: 50px;
+	padding: 50px;
+	text-align: justify;
+	
+}
+/*.about-area, .port-area , .facilities-area{
+	background: #fefefe;
+}*/
+
+html{
+	scroll-behavior: smooth;
+line
+ }
+ .button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 2px solid black;
+    display: inline-block;
+     position: relative;
+    padding: 10px 30px;
+    color: white;
+    margin: 10px 20px;
+    border:2px solid    #000000 ;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1s all ease;
+     
+
+}
+.btn::before{
+     background:#00FFFF;
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     z-index: -1;
+     transition: all 0.6s ease;
+
+
+} 
+.btn1::before{
+    width: 0;
+    height: 100%;
+
+}  
+.btn:hover::before{
+     width: 100%;
+     
+}
+
+
+.about-area h3{
+	margin-left: -1200px;
+}
+.about-area img{
+	width: 500px;
+	height: 370px;
+	/*margin-top: 200px;*/
+	border-radius: 70%;
+	float: left;
+
+	shape-outside: circle();
+	shape-image-threshold: 1;
+	margin: 43px 20px 80px 0 ;
+}
+.facilities-area img{
+	width: 500px;
+	height: 400px;
+	margin-top: 200px;
+	border-radius: 70%;
+	float: left;
+
+	shape-outside: circle();
+	shape-image-threshold: 1;
+	margin: 70px 15px 40px 6px ;
+}
+
+ .yt img{
+ 	margin-top: 320px;
+	margin-left: 57%;
+	height: 100px;
+	width: 120px;
+}
+
+.twitter img{
+	margin-top: -7%;
+	margin-left: 48%;
+height: 95px;
+	width: 100px;
+}
+.fb img{
+	margin-top: -7%;
+	margin-left: 39%;
+height: 100px;
+	width: 100px;
+}
+
+/*Video background*/
+
+
+.banner-area{
+	background-color: rgba(0,0,0,0.5);
+	height: 100vh;
+
+ 
+
+
+}
+.video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	display: table;
+	/*background-size: cover;
+	align-items: center;
+	justify-content: center;*/
+	/*overflow: hidden;*/
+	object-fit: cover;
+	background-attachment: fixed;
+}
+
+@media (min-aspect-ratio:16/9)
+{
+	.video
+	{
+         width: 100%;
+         height: auto;
+	}
+	
+}
+@media (max-aspect-ratio:16/9)
+{
+
+.video
+	{
+         width: auto;
+         height: 100%;
+	}
+}
+
+.container{
+	width:1580px;
+
+	margin: 70px auto 0;
+	/*background-color:#2C2D2D;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+margin-left: -1px;
+padding: 133px;
+background-image: url(city-dark-lights-9044.jpg);
+background-size: cover;
+background-position: center;
+
+
+}
+.bgcolor{
+/*background-image: url(coffee-contact-email-4831.jpg);
+background-size: cover;
+background-position: center;*/
+	/*background-color: black;*/
+	width: 100%;
+	margin-top: -70px;
+}
+.container .box{
+	position: relative;
+
+	width: 400px;
+	height: 300px;
+background-color: #fff;
+margin: 10px;
+display: inline-block;
+
+}
+.container .box .imgbox
+{
+	position: relative;
+	overflow: hidden;
+
+	box-shadow: 10px 10px 12px #131313;
+
+}
+.container .box .imgbox img{
+
+	height: 100%;
+	transition: transform 1s;
+	margin-top: -1px;
+
+
+}
+.container .box:hover .imgbox img
+{
+	transform: scale(1.2);
+}
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,0.7);
+	transform: scaleY(0);
+	transition: transform 0.5s;
+/*height: 90px;
+width: 50px;*/
+
+}
+.container .box:hover .details{
+		transform: scaleY(1);
+}
+.container .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+.container .box .details .content p{
+	margin: 10px 0 0;
+	padding: 0;
+	font-size: 15px;
+	color: #fff;
+
+}

@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+		background:#F2F7F7;
+		
+}
+.menu {
+width: 100%;
+height: 80px;
+font-family: Arial, Helvetica, sans-serif;
+color:#525252 ;                        /* #909797*/
+font-size: 30px;
+
+margin-top:25px; 
+	margin-left: 20px;
+}
+
+.dashboard table{
+
+	margin-top: -20px;
+
+
+}
+.dashboard td{
+
+padding: 55px;
+}
+.one img{
+
+	width: 120px;
+	height: 120px;
+	margin-left: 40px;
+}
+.two img{
+	width: 120px;
+	height: 120px;
+margin-left: -10px;
+}
+.three img{
+	width: 120px;
+	height: 120px;
+
+}
+.four img{
+	width: 120px;
+	height: 120px;
+margin-left: 43px;
+}
+.one p{
+	margin-top: 14px;
+	font-size: 25px;
+	margin-left: 59px;
+color: #454545;
+font-family: Century Gothic;
+
+}
+.two p{
+	margin-left: 8px;
+	font-size: 25px;
+	color: #454545;
+	font-family: Century Gothic;
+}
+
+.three p{
+	margin-left: -19px;
+	font-size: 25px;
+	color: #454545;
+	font-family: Century Gothic;
+}
+.four p{
+	margin-left: -7px;
+	font-size: 25px;
+	color: #454545;
+	font-family: Century Gothic;
+}
